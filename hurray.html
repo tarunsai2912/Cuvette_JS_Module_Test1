@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray</title>
+    <link rel="stylesheet" href="./hurray.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="home-container">
+        <button class="play_again" onclick="goToHomePage()">PLAY AGAIN</button>
+        <div class="rules">
+            <button onclick="rules_click()" id="rules_btn">RULES</button>
+        </div>
+        <div class="game-rules" id="game_rule">
+            <h class="head">Game Rules</h>
+            <div class="s1"></div>
+            <p class="p1">Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+            <div class="s2"></div>
+            <p class="p2">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</p>
+            <div class="s3"></div>
+            <p class="p3">Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p>
+            <div class="s4"></div>
+            <p class="p4">If both players lay down the same hand, each player lays down another hand</p>
+            <button onclick="cross_click()" class="cross_but" id="rul-but">
+                <p class="x">X</p>
+            </button>
+        </div>
+        <img src="./cup.png" class="cup">
+        <img src="./stars.png" class="stars">
+        <p class="hurray">HURRAY!!</p>
+        <p class="won">YOU WON THE GAME</p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
